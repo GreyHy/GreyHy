@@ -27,9 +27,6 @@
  > 座右铭：学如逆水行舟，不进则退。
 <a href="https://alili.tech"><p align="center"> Visitor count<br> <img src="https://profile-counter.glitch.me/huangyong2002/count.svg" /></a>
  
-  
-  
-  ![Visitor Count](https://profile-counter.glitch.me/huangyong2002/count.svg) 
 ![](https://github-readme-activity-graph.cyclic.app/graph?username=huangyong2002&theme=dracula)
 
 
