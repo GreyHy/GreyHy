@@ -1,6 +1,6 @@
 ## :chocolate_bar: 我是 HuangYong 
 - :apple: 我的项目经验：有一定的[自动化测试框架开发](https://github.com/huangyong2002/Hy-UiTest-Framework)、[后端编码](https://github.com/huangyong2002/CampusBBS-SpringBoot-)、自动化脚本编写、用例设计的经验
-- :strawberry: 我的英语水平：英语 CET6,满足日常听说读写需求
+- :watermelon: 我的英语水平：英语 CET6,满足日常听说读写需求
 - :cookie: 我的求职意向：测试开发实习生/自动化测试实习生
 - :honey_pot: 我的实习时间及出勤：可实习3—6个月、每周可出勤5—6天
 - :strawberry: 最快到岗时间：可在一周以内到岗
