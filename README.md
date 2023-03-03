@@ -25,9 +25,10 @@
 
 ## :fire: 项目 
  > 座右铭：学如逆水行舟，不进则退。
-<a href="https://alili.tech"><p align="center"> Visitor count<br> <img src="https://profile-counter.glitch.me/huangyong2002/count.svg" /></a>
- 
-![](https://github-readme-activity-graph.cyclic.app/graph?username=huangyong2002&theme=dracula)
+
+![](https://github-readme-stats.vercel.app/api?username=huangyong2002&show_icons=true&theme=transparent)
+
+You are my ![Visitor Count](https://profile-counter.glitch.me/huangyong2002/count.svg) visitor,Thank You!:kissing_heart::kissing_heart:
 
 
 
