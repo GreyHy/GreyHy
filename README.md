@@ -1,4 +1,5 @@
-## :chocolate_bar: 我是 HuangYong 
+## :chocolate_bar: 我是 HuangYong
+- :earth_asia: 双一流高校软件工程专业在读，专业前25%
 - :apple: 我的项目经验：有一定的[自动化测试框架开发](https://github.com/huangyong2002/Hy-UiTest-Framework)、[后端编码](https://github.com/huangyong2002/CampusBBS-SpringBoot-)、[自动化脚本编写](https://github.com/huangyong2002/litemall-web-autotest)、用例设计的经验
 - :watermelon: 我的英语水平：英语 CET6,满足日常听说读写需求
 - :cookie: 我的求职意向：测试开发实习生/自动化测试实习生
