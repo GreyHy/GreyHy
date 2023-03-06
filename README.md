@@ -4,7 +4,7 @@
 - :watermelon: 我的英语水平：英语 CET6,满足日常听说读写需求
 - :cookie: 我的求职意向：测试开发实习生/自动化测试实习生
 - :honey_pot: 我的实习时间及出勤：可实习3—6个月、每周可出勤5—6天
-- :strawberry: 最快到岗时间：可在一周以内到岗
+- :strawberry: 最快到岗时间：可在两周以内到岗
 - :tangerine: 我的联系方式：微信号「HuangYong_SDET」（添加请备注事由），其他联系方式具体请看简历
 
 ## :computer: 语言工具
