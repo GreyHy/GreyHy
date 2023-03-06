@@ -27,7 +27,7 @@
 ## :fire: 项目 
  > 座右铭：学如逆水行舟，不进则退。
 
-![](https://github-readme-stats.vercel.app/api?username=huangyong2002&show_icons=true&theme=transparent)
+![](https://github-readme-activity-graph.cyclic.app/graph?username=huangyong2002&theme=dracula)
 
 You are my ![Visitor Count](https://profile-counter.glitch.me/huangyong2002/count.svg) visitor.Thank you for visiting!:kissing_heart::kissing_heart:
 
