@@ -1,6 +1,6 @@
 ## :chocolate_bar: 我是 HuangYong
 - :earth_asia: 双一流高校软件工程专业在读，专业前25%
-- :apple: 我的项目经验：有一定的[自动化脚本编写](https://github.com/huangyong2002/litemall-web-autotest)（UI+接口均可）、[自动化测试框架设计与开发](https://github.com/huangyong2002/Hy-UiTest-Framework)（暂时的代表作）、[持续集成与持续交付](https://github.com/huangyong2002/Hy-UiTest-Framework)、[后端编码](https://github.com/huangyong2002/CampusBBS-SpringBoot-)、Bug定位与分析的经验
+- :apple: 我的项目经验：有一定的[自动化脚本编写](https://github.com/huangyong2002/litemall-web-autotest)（UI+接口）、[自动化测试框架设计与开发](https://github.com/huangyong2002/Hy-UiTest-Framework)、[后端编码](https://github.com/huangyong2002/CampusBBS-SpringBoot-)、[持续集成与持续交付](https://github.com/huangyong2002/Hy-UiTest-Framework)的经验
 - :watermelon: 我的英语水平：英语 CET6,满足日常听说读写需求
 - :cookie: 我的求职意向：测试开发工程师/自动化测试工程师
 - :honey_pot: 我的实习时间及出勤：实习期至少3个月、每周全勤可保证5天
