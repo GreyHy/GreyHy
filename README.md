@@ -2,10 +2,7 @@
 - :earth_asia: 双一流高校软件工程专业在读，专业前25%
 - :apple: 我的项目经验：有一定的[自动化脚本编写](https://github.com/huangyong2002/litemall-web-autotest)（UI+接口）、[自动化测试框架设计与开发](https://github.com/huangyong2002/Hy-UiTest-Framework)、[后端编码](https://github.com/huangyong2002/CampusBBS-SpringBoot-)、[持续集成与持续交付](https://github.com/huangyong2002/Hy-UiTest-Framework)的经验
 - :watermelon: 我的英语水平：英语 CET6,满足日常听说读写需求
-- :cookie: 我的求职意向：测试开发工程师
-- :honey_pot: 我的实习时间及出勤：实习期至少3个月、每周全勤可保证5天
-- :strawberry: 最快到岗时间：可在两周以内到岗
-- :tangerine: 我的联系方式：微信号「HuangYong_SDET」（添加请备注事由），其他联系方式具体请看简历
+
 
 ## :computer: 语言工具
 <div style="flex">
