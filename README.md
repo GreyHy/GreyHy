@@ -21,12 +21,6 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="40" height="40" alt="chrome"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" width="40" height="40" alt="firefox"/>          
 
-## :fire: 项目 
- > 座右铭：学如逆水行舟，不进则退。
-
-![](https://github-readme-activity-graph.cyclic.app/graph?username=huangyong2002&theme=dracula)
-
-You are my ![Visitor Count](https://profile-counter.glitch.me/huangyong2002/count.svg) visitor.Thank you for visiting!:kissing_heart::kissing_heart:
 
 
 
