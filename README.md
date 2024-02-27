@@ -25,6 +25,8 @@
   ## :fire: 项目 
  > 座右铭：学如逆水行舟，不进则退。
 
+[![Star History Chart](https://api.star-history.com/svg?repos=huangyong2002/Hy-AutoTest-Framework&type=Date)](https://star-history.com/#huangyong2002/Hy-AutoTest-Framework&Date)
+
 
 You are my ![Visitor Count](https://profile-counter.glitch.me/huangyong2002/count.svg) visitor,Thank You!
 
