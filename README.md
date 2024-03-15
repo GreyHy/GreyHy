@@ -2,6 +2,7 @@
 - :earth_asia: 双一流高校软件工程专业在读，专业前25%。
 - :apple: 我的项目经验：有一定的[自动化脚本编写](https://github.com/huangyong2002/litemall-web-autotest)、[自动化测试框架设计与开发](https://github.com/huangyong2002/Hy-UiTest-Framework)、[后端编码](https://github.com/huangyong2002/CampusBBS-SpringBoot-)、[持续集成与持续交付](https://github.com/huangyong2002/Hy-UiTest-Framework)的经验。
 - :watermelon: 我的英语水平：英语 CET6,满足日常的英文交流和英文技术文档的阅读。
+- :cookie: 我的求职意向：测试开发工程师/自动化测试工程师
 - :tangerine: 我的联系方式：微信号「HuangYong_SDET」（添加请备注事由），其他联系方式具体请看简历
 
 
@@ -25,7 +26,11 @@
   ## :fire: 项目 
  > 座右铭：学如逆水行舟，不进则退。
 
-[![Star History Chart](https://api.star-history.com/svg?repos=huangyong2002/Hy-AutoTest-Framework&type=Date)](https://star-history.com/#huangyong2002/Hy-AutoTest-Framework&Date)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=huangyong2002&repo=Hy-AutoTest-Framework&theme=black)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=huangyong2002&repo=CampusBBS-SpringBoot-&theme=black)](https://github.com/anuraghazra/github-readme-stats)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=huangyong2002&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 
 
 You are my ![Visitor Count](https://profile-counter.glitch.me/huangyong2002/count.svg) visitor,Thank You!
