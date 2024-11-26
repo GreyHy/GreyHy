@@ -23,8 +23,8 @@
  > 座右铭：学如逆水行舟，不进则退。
 
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=huangyong2002&repo=Hy-AutoTest-Framework)](https://github.com/huangyong2002/Hy-AutoTest-Framework)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=huangyong2002&repo=CampusBBS-SpringBoot-)](https://github.com/huangyong2002/CampusBBS-SpringBoot-)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=GreyHy&repo=Hy-AutoTest-Framework)](https://github.com/GreyHy/Hy-AutoTest-Framework)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=GreyHy&repo=CampusBBS-SpringBoot-)](https://github.com/GreyHy/CampusBBS-SpringBoot-)
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=GreyHy&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
