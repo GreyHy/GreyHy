@@ -1,3 +1,29 @@
+<div align="left">
+  
+<div align="center">
+
+  ### [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FC9840&font=Handlee&center=true&vCenter=true&width=500&height=60&lines=✋+Hi+,+glad+to+see+you+here+!)](https://git.io/typing-svg)
+<img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif"
+width="800"  height="2">
+
+<br />
+
+[![Visits Badge](https://badges.strrl.dev/visits/0xVerin/0xVerin?style=flat-square)](https://github.com/GreyHy)
+![Stars](https://img.shields.io/github/stars/GreyHy?style=flat-square)
+[![GitHub](https://img.shields.io/github/followers/GreyHy?logo=github&style=flat-square)](https://github.com/GreyHy)
+
+<br />
+ 	<a href="https://github.com/GreyHy">
+		<img src="https://github-readme-streak-stats.herokuapp.com/?user=GreyHy&theme=sunset-gradient"
+			alt="GitHub Streak" width="50%" />
+	</a>   
+   	<a href="https://github.com/GreyHy">
+		<img src="https://github-readme-stats.vercel.app/api?username=GreyHy&show_icons=true&theme=ambient_gradient"
+			alt="Henry's github stats" width="47%" />
+	</a>
+<br />
+</div>
+
 ## :chocolate_bar: 我是 HuangYong
 - :tangerine: 我的联系方式：微信号「HuangYong_SDET」（添加请备注事由），其他联系方式具体请看简历
 
