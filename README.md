@@ -6,23 +6,6 @@
 <img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif"
 width="800"  height="2">
 
-<br />
-
-[![Visits Badge](https://badges.strrl.dev/visits/0xVerin/0xVerin?style=flat-square)](https://github.com/GreyHy)
-![Stars](https://img.shields.io/github/stars/GreyHy?style=flat-square)
-[![GitHub](https://img.shields.io/github/followers/GreyHy?logo=github&style=flat-square)](https://github.com/GreyHy)
-
-<br />
- 	<a href="https://github.com/GreyHy">
-		<img src="https://github-readme-streak-stats.herokuapp.com/?user=GreyHy&theme=sunset-gradient"
-			alt="GitHub Streak" width="50%" />
-	</a>   
-   	<a href="https://github.com/GreyHy">
-		<img src="https://github-readme-stats.vercel.app/api?username=GreyHy&show_icons=true&theme=ambient_gradient"
-			alt="Henry's github stats" width="47%" />
-	</a>
-<br />
-</div>
 
 ## :chocolate_bar: 我是 HuangYong
 - :tangerine: 我的联系方式：微信号「HuangYong_SDET」（添加请备注事由），其他联系方式具体请看简历
@@ -54,8 +37,45 @@ width="800"  height="2">
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=GreyHy&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
+###
 
-You are my ![Visitor Count](https://profile-counter.glitch.me/huangyong2002/count.svg) visitor,Thank You!
+<h2 align="left"> <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Github Statistics</h2>
+
+###
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false&username=GreyHy" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false&username=GreyHy" height="150" alt="languages graph"  />
+</div>
+
+###
+
+<div align="center">
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+</div>
+
+----
+    
+<div align="center">Thank you for visiting my profile! I hope you find it interesting and informative. I am excited to be a part of the developer community and I'm always looking for ways to improve my skills and knowledge.</div>
+
+###
+
+<div align="center">
+  <a href="#">
+      <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&label=Profile%20views&color=0e75b6&style=flat" alt="GreyHy" align="center" /> 
+  <a/>
+  <a href="https://github.com/GreyHy?tab=followers">
+    <img src="https://img.shields.io/github/followers/GreyHy?label=Followers&style=social" alt="GitHub Badge" align="center">
+  <a/>
+</div>
+    
+###
+
+  
+<div align="center">
+  <a href="https://coff.ee/GreyHy"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="cetinkayaramazan" /></a>
+
+
 
 
 
