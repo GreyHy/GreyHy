@@ -77,24 +77,7 @@
 </div>
 
 ----
-    
-<div align="center">Thank you for visiting my profile! I hope you find it interesting and informative. I am excited to be a part of the developer community and I'm always looking for ways to improve my skills and knowledge.</div>
 
-###
-
-<div align="center">
-  <a href="#">
-      <img src="https://komarev.com/ghpvc/?username=GreyHy&label=Profile%20views&color=0e75b6&style=flat" alt="GreyHy" align="center" /> 
-  <a/>
-  <a href="https://github.com/GreyHy?tab=followers">
-    <img src="https://img.shields.io/github/followers/GreyHy?label=Followers&style=social" alt="GitHub Badge" align="center">
-  <a/>
-</div>
-    
-###
-  
-<div align="center">
-  <a href="https://coff.ee/GreyHy"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="GreyHy" /></a>
 
 
 
