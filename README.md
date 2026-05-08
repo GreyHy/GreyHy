@@ -1,42 +1,86 @@
-<a href="https://github.com/GreyHy"><img src="./herobg.png" align="center" style="width: 100%" alt="GreyHy" /></a>
-  
-<div align="center">
-  
-  ### [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FC9840&font=Handlee&center=true&vCenter=true&width=500&height=60&lines=✋+Hi+,+glad+to+see+you+here+!)](https://git.io/typing-svg)
+<h1 align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=2000&pause=1000&repeat=false&random=true&width=450&height=44&lines=Hey+there!+I'm+Hank+Huang">
+</h1>
 
-<div align="center">
-<img src="./GradientLine.gif" align="center" style="width: 100%"/>
-</div>
+For collaboration or technical discussions, feel free to contact me at **`hank.huang.it@gmail.com`**.  
 
-## :chocolate_bar: 我是 HuangYong
-- :tangerine: 我的联系方式：微信号「HuangYong_SDET」（添加请备注事由），其他联系方式具体请看简历
+### 📝 Blog & Writing
 
+Personal blog: 
 
-## :computer: 语言工具
-<div style="flex">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" width="40" height="40" alt="selenium"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg" width="40" height="40" alt="pytest.js"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"  width="40" height="40" alt="jenkins"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="python"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="java"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="linux"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="mysql"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="40" height="40" alt="redis"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="git"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"  width="40" height="40" alt="github"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="40" height="40" alt="pycharm"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="40" height="40" alt="markdown"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="40" height="40" alt="chrome"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" width="40" height="40" alt="firefox"/> 
+Project documents: 
 
-  ## :fire: 项目 
+<br>
+
+## 💻 Language&Tools
+
+<table>
+  <tr>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" width="40" height="40" alt="Selenium"/><br/>Selenium
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg" width="40" height="40" alt="Pytest"/><br/>Pytest
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="40" height="40" alt="Jenkins"/><br/>Jenkins
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python"/><br/>Python
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java"/><br/>Java
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="40" height="40" alt="go"/><br/>go
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40" alt="Linux"/><br/>Linux
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL"/><br/>MySQL
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="40" height="40" alt="Redis"/><br/>Redis
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" width="40" height="40" alt="elasticsearch"/><br/>elasticsearch
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" alt="Git"/><br/>Git
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40" alt="GitHub"/><br/>GitHub
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="40" height="40" alt="PyCharm"/><br/>PyCharm
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="40" height="40" alt="Markdown"/><br/>Markdown
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="40" height="40" alt="Chrome"/><br/>Chrome
+    </td>
+    <td align="center" width="80">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" width="40" height="40" alt="Firefox"/><br/>Firefox
+    </td>
+  </tr>
+</table>
+
+  ## :fire: Main Project 
  > 座右铭：学如逆水行舟，不进则退。
-
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=GreyHy&repo=Hy-AutoTest-Framework)](https://github.com/GreyHy/Hy-AutoTest-Framework)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=GreyHy&repo=CampusBBS-SpringBoot-)](https://github.com/GreyHy/CampusBBS-SpringBoot-)
-
-
+<p>
+  <a href="https://github.com/GreyHy/Hy-AutoTest-Framework">
+    <img align="center" src="https://github-readme-stats-flax-gamma-41.vercel.app/api/pin/?username=GreyHy&repo=Hy-AutoTest-Framework&theme=react&border_color=61dafc&border_radius=10&" />
+  </a>
+  <a href="https://github.com/GreyHy/CampusBBS-SpringBoot-">
+    <img align="center" src="https://github-readme-stats-flax-gamma-41.vercel.app/api/pin/?username=GreyHy&repo=CampusBBS-SpringBoot-&theme=react&border_color=61dafc&border_radius=10&" />
+  </a>
+</p>
+<p>
+  
 ###
 
 <h2 align="left"> <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Github Statistics</h2>
@@ -62,10 +106,6 @@
 <br/>   -->
 
 ###
-
-<p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=GreyHy" alt="Grey Huang" /> </p>
-
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=GreyHy&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
