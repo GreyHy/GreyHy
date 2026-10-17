@@ -6,11 +6,15 @@ For collaboration or technical discussions, feel free to contact me at **`hank.h
 
 ### 📝 Blog & Writing
 
-Personal blog: 
+<p>
+  Portfolio:
+  <a href="https://hankhuang.top"><img src="./assets/portfolio-link.svg" alt="hankhuang.top" height="28" align="center" /></a>
+</p>
+<p>
+  Docs:
+  <a href="https://docs.hankhuang.top"><img src="./assets/docs-link.svg" alt="docs.hankhuang.top" height="28" align="center" /></a>
+</p>
 
-Project documents: 
-
-<br>
 
 ## 💻 Language&Tools
 
