@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="174" height="28" viewBox="0 0 174 28" role="img" aria-label="hankhuang.top">
+  <title>hankhuang.top</title>
+  <style>
+    .background { fill: #f0f2f4; }
+    .domain { fill: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #161b22; }
+      .domain { fill: #79c0ff; }
+    }
+  </style>
+  <rect class="background" width="174" height="28" rx="6"/>
+  <svg x="7" y="4" width="18" height="20" viewBox="210 70 910 1040"><path fill="#9aa7aa" d="M248 95H367Q377 95 377 105V409C490 345 602 380 711 443C830 537 950 495 950 389V105Q950 95 960 95H1080Q1090 95 1090 105V389C1090 600 891 686 710 548C541 421 381 495 238 633V105Q238 95 248 95Z" />
+    <path fill="#9aa7aa" d="M1090 548V1072Q1090 1082 1080 1082H960Q950 1082 950 1072V771C821 848 739 784 630 718C504 632 377 735 377 787V1072Q377 1082 367 1082H248Q238 1082 238 1072V787C238 670 391 548 493 572C608 563 652 644 759 676C890 733 1011 673 1090 548Z" />
+</svg>
+  <text class="domain" x="33" y="19" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600">hankhuang.top</text>
+</svg>
