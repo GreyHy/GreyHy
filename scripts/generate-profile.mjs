@@ -52,18 +52,45 @@ const projects=[
  {id:'api-ui',title:'API & UI Automation',label:'TEST PLATFORMS / ENGINEERING',lines:['面向 API 与 UI 的自动化平台','将接口和界面测试纳入平台能力'],tags:['API','UI','Platform'],href:'https://docs.hankhuang.top/Tech/api-ui-automation/overview',cta:'Read engineering notes',desc:'API 与 UI 自动化平台'}
 ];
 const projectGroups=[
- {title:'Projects I can build in Test Infrastructure & Quality Engineering',ids:['repo-fetcher','automation','tcm','api-ui']},
- {title:'Projects I can build in AI & Multi-Agent System',ids:['ai-cases','agent-review','agentops']}
+ {id:'test-infra',title:'Projects I can build in Test Infrastructure & Quality Engineering',heading:['Test Infrastructure','& Quality Engineering'],summary:'框架 · 平台 · 工程工具',ids:['repo-fetcher','automation','tcm','api-ui']},
+ {id:'ai-agents',title:'Projects I can build in AI & Multi-Agent System',heading:['AI & Multi-Agent System'],summary:'用例生成 · 代码审查 · 应用评测',ids:['ai-cases','agent-review','agentops']}
 ];
 const projectById=new Map(projects.map(project=>[project.id,project]));
 const orderedProjects=projectGroups.flatMap(group=>group.ids.map(id=>projectById.get(id)));
-function card(p,theme,mobile){const c=themes[theme],w=400,h=220;const body=`${rect(22,24,4,24,2,c.accent)}${text(p.label,36,40,mobile?11:10,c.accent,600)}${text(p.title,22,81,25,c.ink,700)}${p.lines.map((s,i)=>text(s,22,113+i*23,mobile?16:14,c.text)).join('')}${p.tags.map((s,i)=>{const x=22+p.tags.slice(0,i).reduce((n,t)=>n+t.length*6.3+23,0);return rect(x,152,s.length*6.3+17,24,7,c.tint)+text(s,x+8,168,11,c.accent,600);}).join('')}${text(p.cta,22,201,11,c.muted,500)}${text('↗',360,202,20,c.accent)}`;return write(`project-${p.id}-${mobile?'mobile-':''}${theme}`,svg(w,h,c,`${p.title} · ${p.desc}`,body,'',12));}
+function practiceCard(p,theme,mobile){const c=themes[theme],w=400,h=220;const body=`${rect(22,24,4,24,2,c.accent)}${text(p.label,36,40,mobile?11:10,c.accent,600)}${text(p.title,22,81,25,c.ink,700)}${p.lines.map((s,i)=>text(s,22,113+i*23,mobile?16:14,c.text)).join('')}${p.tags.map((s,i)=>{const x=22+p.tags.slice(0,i).reduce((n,t)=>n+t.length*6.3+23,0);return rect(x,152,s.length*6.3+17,24,7,c.tint)+text(s,x+8,168,11,c.accent,600);}).join('')}${text(p.cta,22,201,11,c.muted,500)}${text('↗',360,202,20,c.accent)}`;return write(`project-${p.id}-${mobile?'mobile-':''}${theme}`,svg(w,h,c,`${p.title} · ${p.desc}`,body,'',12));}
+const projectSymbols={
+ 'repo-fetcher':'<path d="M4 4h11v6H4zM4 20h11v6H4zM24 12h11v6H24zM15 7h5v16h-5m5-8h4"/>',
+ automation:'<rect x="3" y="5" width="30" height="21" rx="3"/><path d="M12 32h12m-6-6v6m-8-17 5 5 11-12"/>',
+ tcm:'<rect x="6" y="5" width="24" height="28" rx="3"/><path d="M13 5V2h10v6H13m-2 7 2 2 4-4m3 3h5m-14 8 2 2 4-4m3 3h5"/>',
+ 'api-ui':'<rect x="2" y="4" width="32" height="27" rx="4"/><path d="M2 12h32m-21 5-5 4 5 4m10-8 5 4-5 4m-3-10-4 13"/>',
+ 'ai-cases':'<rect x="3" y="5" width="22" height="28" rx="3"/><path d="M9 13h10M9 20h7m14-17 2 5 5 2-5 2-2 5-2-5-5-2 5-2Zm-6 19 2 4 4 2-4 2-2 4-2-4-4-2 4-2Z"/>',
+ 'agent-review':'<circle cx="18" cy="7" r="5"/><circle cx="7" cy="27" r="5"/><circle cx="30" cy="27" r="5"/><path d="m15 12-5 10m12-10 5 10m-15 5h13m-10-9 3 3 6-6"/>',
+ agentops:'<rect x="3" y="4" width="30" height="29" rx="4"/><path d="M3 12h30M10 19v7m8-10v10m8-5v5M9 8h1m4 0h1"/>'
+};
+function card(p,theme,mobile){
+ if(!projectById.has(p.id))return practiceCard(p,theme,mobile);
+ const c=themes[theme],w=mobile?440:880,h=mobile?188:140;
+ const index=projectGroups.find(group=>group.ids.includes(p.id)).ids.indexOf(p.id)+1;
+ const iconX=mobile?20:24,iconY=mobile?21:32,iconSize=mobile?42:64;
+ const titleX=mobile?76:112;
+ const category=p.label.split(' / ')[0];
+ const action=p.cta==='Explore platform'?'Explore platform':p.cta==='View repository'?'View repository':'Read notes';
+ const tags=p.tags.join('  /  ');
+ const icon=`${rect(iconX,iconY,iconSize,iconSize,mobile?12:17,c.tint)}<g transform="translate(${iconX+(iconSize-36)/2} ${iconY+(iconSize-36)/2})" fill="none" stroke="${c.accent}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${projectSymbols[p.id]}</g>`;
+ const body=`${rect(.5,.5,w-1,h-13,16,c.panel,c.line)}${icon}${text(String(index).padStart(2,'0')+'  /  '+category,titleX,mobile?30:27,10,c.muted,600)}${text(p.title,titleX,mobile?56:55,mobile?21:23,c.ink,700)}${mobile?p.lines.map((line,i)=>text(line,20,94+i*23,15,c.text)).join(''):text(p.lines.join(' · '),titleX,80,14,c.text)}${text(tags,mobile?20:titleX,mobile?154:108,11,c.muted,500)}<text x="${w-22}" y="${mobile?154:108}" text-anchor="end" font-family="${font}" font-size="11" font-weight="600" fill="${c.accent}">${action} ↗</text>`;
+ return write(`project-${p.id}-${mobile?'mobile-':''}${theme}`,`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img"><title>${esc(p.title+' · '+p.desc)}</title>${body}</svg>\n`);
+}
+function projectHeading(group,theme,mobile){
+ const c=themes[theme],w=mobile?440:880,h=mobile?116:100;
+ const body=`${text('PROJECTS I CAN BUILD IN',0,20,11,c.accent,650)}<text x="${w}" y="20" text-anchor="end" font-family="${font}" font-size="11" fill="${c.muted}">${String(group.ids.length).padStart(2,'0')} PROJECTS</text>${(mobile?group.heading:[group.heading.join(' ')]).map((line,i)=>text(line,0,50+i*27,mobile?24:27,c.ink,700)).join('')}${text(group.summary,0,mobile?102:77,12,c.muted)}`;
+ return write(`project-group-${group.id}-${mobile?'mobile-':''}${theme}`,`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img"><title>${esc(group.title)}</title>${body}</svg>\n`);
+}
 const practices=[{id:'quality',title:'Quality & Reliability',label:'BUSINESS / SYSTEMS',lines:['分布式与国际化系统的质量保障','围绕幂等、补偿和对账识别资损风险'],tags:['Risk','Reliability','Systems'],cta:'Explore Business',href:'https://hankhuang.top/#business',desc:'业务链路与资损防控'}, {id:'teams',title:'Teams & Growth',label:'MANAGEMENT / ENABLEMENT',lines:['质量体系、流程治理与人才培养','用能力雷达和实践规范支持团队成长'],tags:['Quality','Teams','Growth'],cta:'Explore Management',href:'https://hankhuang.top/#management',desc:'质量体系与团队建设'}];
 const statusItems=[
  {id:'location',width:108,title:'深圳',detail:'',icon:'location'},
- {id:'shopee',width:228,title:'Shopee',detail:'测试开发工程师',brand:'shopee'},
- {id:'transwarp',width:282,title:'星环科技',detail:'自动化测试工程师',logo:'transwarp.svg'},
- {id:'education',width:346,title:'湘潭大学 · 软件工程',detail:'优秀毕业生 · 专业前20%',logo:'xiangtan-university.png'}
+ {id:'shopee',width:190,title:'Shopee',detail:'测试开发工程师',brand:'shopee'},
+ {id:'transwarp',width:210,title:'星环科技',detail:'自动化测试工程师',logo:'transwarp.svg'},
+ {id:'education',width:310,title:'湘潭大学 · 软件工程',detail:'优秀毕业生 · 专业前20%',logo:'xiangtan-university.svg'}
 ];
 const statusIcons={
  location:'<path d="M12 22s8-7 8-13a8 8 0 0 0-16 0c0 6 8 13 8 13Z"/><circle cx="12" cy="9" r="2.5"/>',
@@ -72,8 +99,8 @@ const statusIcons={
 };
 function status(item,theme){
  const c=themes[theme],accent=item.id==='location'?c.accent:c.secondary;
- const logo=item.id==='transwarp'?`${rect(10,12,80,36,8,'#233F73')}<image href="data:image/svg+xml;base64,${fs.readFileSync(path.join(assets,'logos',item.logo)).toString('base64')}" x="15" y="17" width="70" height="26"/>`:item.logo?`<image href="data:image/${item.logo.endsWith('.svg')?'svg+xml':'png'};base64,${fs.readFileSync(path.join(assets,'logos',item.logo)).toString('base64')}" x="12" y="12" width="36" height="36"/>`:item.brand?brandIcon(item.brand,14,14,32,'#EE4D2D'):'';
- const body=`${rect(.5,.5,item.width-1,59,13,c.bg,c.line)}${logo}<g transform="translate(15 18)" fill="none" stroke="${accent}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${statusIcons[item.icon]||''}</g>${text(item.title,item.id==='transwarp'?102:logo?62:54,item.detail?25:36,item.detail?16:17,c.ink,650)}${item.detail?text(item.detail,item.id==='transwarp'?102:logo?62:54,46,15,c.text,500):''}`;
+ const logo=item.logo?`<circle cx="30" cy="30" r="20" fill="#fff"/><image href="data:image/${item.logo.endsWith('.svg')?'svg+xml':'png'};base64,${fs.readFileSync(path.join(assets,'logos',item.logo)).toString('base64')}" x="${item.id==='education'?9:12}" y="${item.id==='education'?9:12}" width="${item.id==='education'?42:36}" height="${item.id==='education'?42:36}"/>`:item.brand?brandIcon(item.brand,14,14,32,'#EE4D2D'):'';
+ const body=`${rect(.5,.5,item.width-1,59,13,c.bg,c.line)}${logo}<g transform="translate(15 18)" fill="none" stroke="${accent}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${statusIcons[item.icon]||''}</g>${text(item.title,logo?62:54,item.detail?25:36,item.detail?16:17,c.ink,650)}${item.detail?text(item.detail,logo?62:54,46,15,c.text,500):''}`;
  write(`profile-status-${item.id}-${theme}`,`<svg xmlns="http://www.w3.org/2000/svg" width="${item.width}" height="66" viewBox="0 0 ${item.width} 66" role="img"><title>${esc(item.title+(item.detail?' · '+item.detail:''))}</title>${body}</svg>\n`);
 }
 // Brand SVGs are vendored; generation and GitHub rendering need no external requests.
@@ -111,7 +138,7 @@ const groups=[
 ];
 for(const theme of ['light','dark']){
  for(const item of statusItems)status(item,theme);
- for(const mobile of [false,true]){header(theme,mobile);for(const p of [...projects,...practices])card(p,theme,mobile);}
+ for(const mobile of [false,true]){header(theme,mobile);for(const group of projectGroups)projectHeading(group,theme,mobile);for(const p of [...projects,...practices])card(p,theme,mobile);}
  const c=themes[theme];
  for(const label of groups.flatMap(g=>g[1])){const w=toolWidth(label);write(`tool-${toolId(label)}-${theme}`,`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="44" viewBox="0 0 ${w} 44" role="img"><title>${esc(label)}</title>${rect(.5,.5,w-1,37,10,c.bg,c.line)}${toolIcon(label,c)}${text(label,40,24,12,c.text,500)}</svg>\n`);}
 }
@@ -119,7 +146,7 @@ for(const theme of ['light','dark']){
 for(const theme of ['light','dark']){
  const location=fs.readFileSync(path.join(root,files['profile-status-location-'+theme]),'utf8');
  const shopee=fs.readFileSync(path.join(root,files['profile-status-shopee-'+theme]),'utf8').replace('<svg ','<svg x="114" ');
- write('profile-status-location-shopee-'+theme,`<svg xmlns="http://www.w3.org/2000/svg" width="342" height="66" viewBox="0 0 342 66" role="img"><title>深圳 · Shopee · 测试开发工程师</title>${location}${shopee}</svg>`);
+ write('profile-status-location-shopee-'+theme,`<svg xmlns="http://www.w3.org/2000/svg" width="304" height="66" viewBox="0 0 304 66" role="img"><title>深圳 · Shopee · 测试开发工程师</title>${location}${shopee}</svg>`);
 }
 for(const theme of ['light','dark'])for(const mobile of [false,true]){
  const base=`profile-header-${mobile?'mobile-':''}${theme}`;
@@ -134,8 +161,8 @@ function bannerPicture(){
  const animated=variants.map(([media,key])=>`  <source media="${media}" srcset="${files['profile-header-'+key+'-animated']}" />`);
  return `<picture>\n${[...reduced,...animated].join('\n')}\n  <img width="100%" src="${files['profile-header-light-animated']}" alt="Hank Huang / GreyHy · 质量工程、自动化与 AI Agent · terminal 动态介绍" />\n</picture>`;
 }
-function picture(base,alt,width='100%',mobile=true){return `<picture>\n${mobile?`  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="${files[base+'-mobile-dark']}" />\n  <source media="(max-width: 1100px)" srcset="${files[base+'-mobile-light']}" />\n`:''}  <source media="(prefers-color-scheme: dark)" srcset="${files[base+'-dark']}" />\n  <img width="${width}" src="${files[base+'-light']}" alt="${esc(alt)}" />\n</picture>`;}
-function linkedCard(p){return `<a href="${p.href}">${picture('project-'+p.id,p.title+' · '+p.desc,'400')}</a>`;}
+function picture(base,alt,width='100%',mobile=true){const breakpoint=base.startsWith('project-')&&!/^project-(quality|teams)$/.test(base)?600:1100;return `<picture>\n${mobile?`  <source media="(max-width: ${breakpoint}px) and (prefers-color-scheme: dark)" srcset="${files[base+'-mobile-dark']}" />\n  <source media="(max-width: ${breakpoint}px)" srcset="${files[base+'-mobile-light']}" />\n`:''}  <source media="(prefers-color-scheme: dark)" srcset="${files[base+'-dark']}" />\n  <img width="${width}" src="${files[base+'-light']}" alt="${esc(alt)}" />\n</picture>`;}
+function linkedCard(p){return `<a href="${p.href}">${picture('project-'+p.id,p.title+' · '+p.desc,projectById.has(p.id)?'100%':'400')}</a>`;}
 const readme=`<!-- Generated by node scripts/generate-profile.mjs. Edit content in that script, then regenerate. -->
 ${bannerPicture()}
 
@@ -149,21 +176,14 @@ ${bannerPicture()}
 你好，我是 **Hank Huang / GreyHy**，在深圳从事测试开发。这里记录我在**测试基础设施与质量工程**、**AI 与多智能体系统**中的项目与实践。
 
 <p>
-${picture('profile-status-location-shopee','深圳 · Shopee · 测试开发工程师','342',false)}
-</p>
-
-<p>
+${picture('profile-status-location-shopee','深圳 · Shopee · 测试开发工程师','304',false)}
 ${statusItems.slice(2).map(item=>picture('profile-status-'+item.id,item.title+' · '+item.detail,String(item.width),false)).join('\n')}
 </p>
 
 ### 01 / Projects · 项目实践
 
-${projectGroups.map(group=>{
- const items=group.ids.map(id=>projectById.get(id));
- const rows=[];
- for(let i=0;i<items.length;i+=2)rows.push(`<p>\n${items.slice(i,i+2).map(linkedCard).join('\n')}\n</p>`);
- return `#### ${group.title}\n\n${rows.join('\n\n')}`;
-}).join('\n\n')}
+${projectGroups.map(group=>`${picture('project-group-'+group.id,group.title,'100%')}\n\n${group.ids.map(id=>`<p>\n${linkedCard(projectById.get(id))}\n</p>`).join('\n')}`).join('\n\n')}
+
 
 <details>
   <summary><b>展开项目文字版与入口</b></summary>
@@ -207,5 +227,5 @@ ${groups.map(([title,tools])=>`**${title}**\n\n<p>\n${tools.map(label=>picture('
 fs.writeFileSync(path.join(root,'README.md'),readme);
 // Remove only stale assets generated by this script, preserving existing repository assets.
 const used=new Set(Object.values(files).map(f=>path.basename(f)));
-for(const name of fs.readdirSync(assets))if(/^(profile-header-|profile-status-|project-(repo-fetcher|agentops|agent-review|automation|tcm|ai-cases|api-ui|quality|teams)-|tool-).*-[a-f0-9]{10}\.(?:svg|gif)$/.test(name)&&!used.has(name))fs.unlinkSync(path.join(assets,name));
+for(const name of fs.readdirSync(assets))if(/^(profile-header-|profile-status-|project-(group-test-infra|group-ai-agents|repo-fetcher|agentops|agent-review|automation|tcm|ai-cases|api-ui|quality|teams)-|tool-).*-[a-f0-9]{10}\.(?:svg|gif)$/.test(name)&&!used.has(name))fs.unlinkSync(path.join(assets,name));
 console.log(`Generated README and ${used.size} theme-aware assets (SVG + GIF).`);

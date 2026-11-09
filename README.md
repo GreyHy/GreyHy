@@ -21,81 +21,93 @@
 
 <p>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-status-location-shopee-dark-1666c629a7.svg" />
-  <img width="342" src="assets/profile-status-location-shopee-light-71344d7acd.svg" alt="深圳 · Shopee · 测试开发工程师" />
-</picture>
-</p>
-
-<p>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-status-transwarp-dark-0d09db3d6c.svg" />
-  <img width="282" src="assets/profile-status-transwarp-light-02c7c0deee.svg" alt="星环科技 · 自动化测试工程师" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-status-location-shopee-dark-e41278ce34.svg" />
+  <img width="304" src="assets/profile-status-location-shopee-light-f519188381.svg" alt="深圳 · Shopee · 测试开发工程师" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-status-education-dark-3b3fbb92df.svg" />
-  <img width="346" src="assets/profile-status-education-light-4d47e280ca.svg" alt="湘潭大学 · 软件工程 · 优秀毕业生 · 专业前20%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-status-transwarp-dark-f39a113193.svg" />
+  <img width="210" src="assets/profile-status-transwarp-light-e6d835bd12.svg" alt="星环科技 · 自动化测试工程师" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-status-education-dark-2ffb99569a.svg" />
+  <img width="310" src="assets/profile-status-education-light-2273c00dbf.svg" alt="湘潭大学 · 软件工程 · 优秀毕业生 · 专业前20%" />
 </picture>
 </p>
 
 ### 01 / Projects · 项目实践
 
-#### Projects I can build in Test Infrastructure & Quality Engineering
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/project-group-test-infra-mobile-dark-a4ad48e492.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-group-test-infra-mobile-light-9f9c8c9efa.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-group-test-infra-dark-cf2a813111.svg" />
+  <img width="100%" src="assets/project-group-test-infra-light-0e64e3acf5.svg" alt="Projects I can build in Test Infrastructure &amp; Quality Engineering" />
+</picture>
 
 <p>
 <a href="https://docs.hankhuang.top/Tech/multi-agent-code-review/%E6%A0%B8%E5%BF%83%E5%AE%9E%E7%8E%B0%EF%BC%9A%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%BB%93%E5%BA%93%E5%B9%B6%E5%8F%91%E6%8B%89%E5%8F%96%E3%80%81%E9%87%8D%E8%AF%95%E4%B8%8E%E5%8F%AF%E8%A7%82%E6%B5%8B%E6%80%A7"><picture>
-  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/project-repo-fetcher-mobile-dark-24d3b96a6f.svg" />
-  <source media="(max-width: 1100px)" srcset="assets/project-repo-fetcher-mobile-light-08cb2d661f.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-repo-fetcher-dark-7b4b876876.svg" />
-  <img width="400" src="assets/project-repo-fetcher-light-983eff0b54.svg" alt="Repository Fetcher · 微服务仓库并发拉取工具" />
-</picture></a>
-<a href="https://github.com/GreyHy/Hy-AutoTest-Framework"><picture>
-  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/project-automation-mobile-dark-a449536c96.svg" />
-  <source media="(max-width: 1100px)" srcset="assets/project-automation-mobile-light-a02b89403c.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-automation-dark-aee0c617ce.svg" />
-  <img width="400" src="assets/project-automation-light-d104ac1b89.svg" alt="Hy AutoTest · 跨平台端到端自动化测试框架" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/project-repo-fetcher-mobile-dark-338be2d404.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-repo-fetcher-mobile-light-91a9d92a04.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-repo-fetcher-dark-3e9dfc54f4.svg" />
+  <img width="100%" src="assets/project-repo-fetcher-light-f29e80c751.svg" alt="Repository Fetcher · 微服务仓库并发拉取工具" />
 </picture></a>
 </p>
-
+<p>
+<a href="https://github.com/GreyHy/Hy-AutoTest-Framework"><picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/project-automation-mobile-dark-9ca2211ce9.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-automation-mobile-light-1bf392fe11.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-automation-dark-d2cecedbc6.svg" />
+  <img width="100%" src="assets/project-automation-light-7f06e28d9e.svg" alt="Hy AutoTest · 跨平台端到端自动化测试框架" />
+</picture></a>
+</p>
 <p>
 <a href="https://hy-tcm.hankhuang.top/"><picture>
-  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/project-tcm-mobile-dark-cc1a6ef153.svg" />
-  <source media="(max-width: 1100px)" srcset="assets/project-tcm-mobile-light-3d9fca14ad.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-tcm-dark-bbf040de5c.svg" />
-  <img width="400" src="assets/project-tcm-light-6b86fd590b.svg" alt="TCM Platform · 测试用例管理与执行平台" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/project-tcm-mobile-dark-386c92d6d3.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-tcm-mobile-light-16410ffd49.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-tcm-dark-3f2c4be90a.svg" />
+  <img width="100%" src="assets/project-tcm-light-206e5f658d.svg" alt="TCM Platform · 测试用例管理与执行平台" />
 </picture></a>
+</p>
+<p>
 <a href="https://docs.hankhuang.top/Tech/api-ui-automation/overview"><picture>
-  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/project-api-ui-mobile-dark-3c888e34d0.svg" />
-  <source media="(max-width: 1100px)" srcset="assets/project-api-ui-mobile-light-fdb3d899df.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-api-ui-dark-214cc22198.svg" />
-  <img width="400" src="assets/project-api-ui-light-596b070a7b.svg" alt="API &amp; UI Automation · API 与 UI 自动化平台" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/project-api-ui-mobile-dark-72a88c7ebd.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-api-ui-mobile-light-9f1865bc90.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-api-ui-dark-47e49fd123.svg" />
+  <img width="100%" src="assets/project-api-ui-light-3ca7c3d974.svg" alt="API &amp; UI Automation · API 与 UI 自动化平台" />
 </picture></a>
 </p>
 
-#### Projects I can build in AI & Multi-Agent System
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/project-group-ai-agents-mobile-dark-be35e864c5.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-group-ai-agents-mobile-light-d79842afdb.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-group-ai-agents-dark-44010c2214.svg" />
+  <img width="100%" src="assets/project-group-ai-agents-light-da81aacbe1.svg" alt="Projects I can build in AI &amp; Multi-Agent System" />
+</picture>
 
 <p>
 <a href="https://docs.hankhuang.top/Tech/tcm-case-management-ai-generation/ai-generation"><picture>
-  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/project-ai-cases-mobile-dark-d435becc6f.svg" />
-  <source media="(max-width: 1100px)" srcset="assets/project-ai-cases-mobile-light-0fefaa6e59.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-ai-cases-dark-7c378f2d08.svg" />
-  <img width="400" src="assets/project-ai-cases-light-6e9b2b905b.svg" alt="AI Case Generator · MCP / Plugins / Skills 用例生成" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/project-ai-cases-mobile-dark-73fca95550.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-ai-cases-mobile-light-e7fd7bcccc.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-ai-cases-dark-7670c1131a.svg" />
+  <img width="100%" src="assets/project-ai-cases-light-f6040f28f8.svg" alt="AI Case Generator · MCP / Plugins / Skills 用例生成" />
 </picture></a>
+</p>
+<p>
 <a href="https://docs.hankhuang.top/Tech/multi-agent-code-review/overview"><picture>
-  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/project-agent-review-mobile-dark-f15358a0a1.svg" />
-  <source media="(max-width: 1100px)" srcset="assets/project-agent-review-mobile-light-731e0aa337.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-agent-review-dark-fe8fca2919.svg" />
-  <img width="400" src="assets/project-agent-review-light-60f1fe8b51.svg" alt="Multi-Agent Review · 异步微服务的多智能体代码审查" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/project-agent-review-mobile-dark-73fffaec9c.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-agent-review-mobile-light-725445c13f.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-agent-review-dark-4691facb32.svg" />
+  <img width="100%" src="assets/project-agent-review-light-98f563b6a2.svg" alt="Multi-Agent Review · 异步微服务的多智能体代码审查" />
+</picture></a>
+</p>
+<p>
+<a href="https://agentops.hankhuang.top/#carousel"><picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/project-agentops-mobile-dark-438519d7c2.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-agentops-mobile-light-f0cfe123f0.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-agentops-dark-19079bac28.svg" />
+  <img width="100%" src="assets/project-agentops-light-bab43e8581.svg" alt="AgentOps · AI 应用与评测平台" />
 </picture></a>
 </p>
 
-<p>
-<a href="https://agentops.hankhuang.top/#carousel"><picture>
-  <source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/project-agentops-mobile-dark-a3e94542a1.svg" />
-  <source media="(max-width: 1100px)" srcset="assets/project-agentops-mobile-light-e89e31b815.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/project-agentops-dark-4e1e31ae26.svg" />
-  <img width="400" src="assets/project-agentops-light-823f1bd206.svg" alt="AgentOps · AI 应用与评测平台" />
-</picture></a>
-</p>
 
 <details>
   <summary><b>展开项目文字版与入口</b></summary>
