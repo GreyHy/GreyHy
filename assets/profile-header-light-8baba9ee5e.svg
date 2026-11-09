@@ -1,0 +1,87 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="360"
+  viewBox="0 0 1200 360"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Hank Huang — Quality Engineering, Test Infrastructure and Agents</title>
+  <desc id="desc">A terminal-inspired profile banner with an orbiting AI system diagram.</desc>
+
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBFCFD" />
+      <stop offset="0.55" stop-color="#F0F4F8" />
+      <stop offset="1" stop-color="#F0F4F8" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#325F99" />
+      <stop offset="1" stop-color="#276C75" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#276C75" stop-opacity=".34" />
+      <stop offset="1" stop-color="#276C75" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#325F99" stroke-opacity=".08" />
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#1B2C44" flood-opacity=".12" />
+    </filter>
+  </defs>
+
+  <style>
+    .name { font: 700 43px Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; fill: #1B2C44; }
+    .tagline { font: 500 19px Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; fill: #40536B; }
+    .mono { font: 500 16px "SFMono-Regular", Consolas, "Liberation Mono", monospace; fill: #40536B; }
+    .prompt { fill: #325F99; font-weight: 700; }
+    .chip { font: 700 12px Inter, ui-sans-serif, system-ui, sans-serif; fill: #325F99; letter-spacing: .8px; }
+    .orbit-label { font: 700 13px Inter, ui-sans-serif, system-ui, sans-serif; fill: #276C75; letter-spacing: .5px; }
+    .core { font: 800 28px Inter, ui-sans-serif, system-ui, sans-serif; fill: white; text-anchor: middle; }
+    
+  </style>
+
+  <rect id="background" width="1200" height="360" rx="28" fill="url(#surface)" />
+  <rect id="grid-layer" width="1200" height="360" rx="28" fill="url(#grid)" />
+  <circle cx="972" cy="180" r="215" fill="url(#glow)" />
+
+  <g filter="url(#shadow)">
+    <rect id="terminal" x="52" y="42" width="720" height="276" rx="18" fill="#FFFFFF" stroke="#D8E1EB" />
+    <path id="terminal-bar" d="M70 42h684a18 18 0 0 1 18 18v28H52V60a18 18 0 0 1 18-18Z" fill="#F0F4F8" />
+    <circle cx="80" cy="65" r="6" fill="#fb7185" />
+    <circle cx="101" cy="65" r="6" fill="#fbbf24" />
+    <circle cx="122" cy="65" r="6" fill="#34d399" />
+    <text x="412" y="70" text-anchor="middle" class="chip">GREYHY://QUALITY-LAB</text>
+
+    <text x="86" y="127" class="mono prompt">$ whoami</text>
+    <text x="86" y="181" class="name">Hank Huang</text>
+    <text x="86" y="218" class="tagline">Quality · Test Infra · AI / Agent</text>
+    <text x="86" y="267" class="mono">
+      <tspan class="prompt">→</tspan>
+      <tspan> building reliable systems</tspan>
+    </text>
+  </g>
+
+  <g>
+    <circle cx="981" cy="180" r="116" fill="none" stroke="#325F99" stroke-opacity=".22" stroke-width="2" stroke-dasharray="8 9" />
+    <circle cx="981" cy="180" r="79" fill="none" stroke="#276C75" stroke-opacity=".34" stroke-width="2" />
+    <circle cx="981" cy="180" r="50" fill="url(#accent)" filter="url(#shadow)" />
+    <text x="981" y="190" class="core">AI</text>
+
+    <circle cx="981" cy="64" r="12" fill="#325F99" />
+    <circle cx="1090" cy="218" r="12" fill="#276C75" />
+    <circle cx="887" cy="248" r="12" fill="#325F99" />
+
+    <path d="M981 76v54M1078 214l-51-18M897 240l46-32" stroke="#325F99" stroke-opacity=".45" stroke-width="2" />
+
+    <rect x="931" y="24" width="100" height="28" rx="14" fill="#F0F4F8" />
+    <text x="981" y="43" text-anchor="middle" class="orbit-label">QUALITY</text>
+
+    <rect x="1062" y="238" width="102" height="28" rx="14" fill="#F0F4F8" />
+    <text x="1113" y="257" text-anchor="middle" class="orbit-label">AGENTS</text>
+
+    <rect x="818" y="263" width="112" height="28" rx="14" fill="#F0F4F8" />
+    <text x="874" y="282" text-anchor="middle" class="orbit-label">TEST INFRA</text>
+  </g>
+</svg>
