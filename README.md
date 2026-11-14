@@ -13,24 +13,45 @@
 <p align="center">
   <a href="https://hankhuang.top"><b>Blog ↗</b></a> &nbsp; · &nbsp;
   <a href="https://docs.hankhuang.top"><b>Engineering Notes ↗</b></a> &nbsp; · &nbsp;
-  <a href="https://hankhuang.top/analytics/overview/"><b>Observability ↗</b></a> &nbsp; · &nbsp;
+  <a href="https://hankhuang.top/analytics/detail/?site=all&days=30#requests"><b>Observability ↗</b></a> &nbsp; · &nbsp;
   <a href="https://hankhuang.top/?ask=1"><b>Personal Agent ↗</b></a>
 </p>
 
 
-### 04 / Notes · 写作与思考
+### Notes · Thinking And Talk
 
-- [工程文档](https://docs.hankhuang.top)：记录测试平台、自动化与 AI / Agent 项目中的实现方法。
-- [Thinking And Talk](https://hankhuang.top/#thinking)：关于工程实践、职业选择与 AI Agent 时代的成长。
+- [AI-Agent时代的成长之路](https://docs.hankhuang.top/thinking/career-growth-in-the-ai-agent-era)：个人面对AI-Agent时代，关于工程实践、职业选择与 AI Agent 时代成长的思考、决策、认知。
+- [五年成长复盘：技术、业务与管理](https://docs.hankhuang.top/articles/past-5-years-growth-and-review/)：关于个人五年在技术、业务与管理侧的成长复盘。
 
-<details>
-  <summary><b>GitHub 活动与语言统计</b></summary>
-  <br />
-  <img width="100%" src="./github-metrics.svg" alt="GreyHy 的 GitHub 活动与语言统计，由仓库现有 Metrics 工作流更新" />
-</details>
+For collaboration or technical discussions, feel free to contact me at **`hank.huang.it@gmail.com`**.  
 
----
+###
 
-<p align="center">
-  <sub>欢迎交流工程实践与项目合作：<a href="mailto:hank.huang.it@gmail.com">hank.huang.it@gmail.com</a></sub>
-</p>
+<h2 align="left"> <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Github Statistics</h2>
+
+###
+
+<!-- <div align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=GreyHy&show_icons=true&theme=dark"/> <br>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GreyHy&theme=dark"/> <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=GreyHy&layout=compact&theme=dark&langs_count=10&hide=css,html" width="40%"/> <br>
+  <a href="https://github.com/GreyHy/Library.git" target="_blank">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=GreyHy&repo=Library&theme=dark" width="54.3%"/>
+  </a>
+</div> -->
+
+![Metrics](/github-metrics.svg)
+<!-- ## Metrics
+<br/><div align="center" width="100%">
+![Metrics](https://metrics.lecoq.io/GreyHy?template=classic&isocalendar=1&languages=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar=false&isocalendar.duration=full-year&languages=false&languages.limit=10&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&config.timezone=Asia%2FColombo)
+</div> 
+
+<h2 align="left"> <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Github Statistics</h2>
+<br/>   -->
+
+###
+
+<div align="center">
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+</div>
+
