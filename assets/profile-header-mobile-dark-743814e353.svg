@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="480" viewBox="0 0 440 480" role="img"><title>Hank Huang · Quality / Test Infra / AI Agent</title><defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121C2B" />
+      <stop offset="0.55" stop-color="#172437" />
+      <stop offset="1" stop-color="#172437" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9FBEED" />
+      <stop offset="1" stop-color="#9ED4D2" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#9ED4D2" stop-opacity=".34" />
+      <stop offset="1" stop-color="#9ED4D2" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#9FBEED" stroke-opacity=".08" />
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#F0F4FA" flood-opacity=".12" />
+    </filter>
+  </defs><style>.orbit-label{font:700 13px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;fill:#9ED4D2;letter-spacing:.5px}.core{font:800 28px -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;fill:white;text-anchor:middle}</style><rect x="0" y="0" width="440" height="480" rx="22" fill="#121C2B" stroke="none"/><rect x="20" y="20" width="400" height="230" rx="18" fill="#172437" stroke="#304056"/><rect x="21" y="21" width="398" height="40" rx="17" fill="#172437" stroke="none"/><circle cx="40" cy="41" r="5" fill="#fb7185"/><circle cx="58" cy="41" r="5" fill="#fbbf24"/><circle cx="76" cy="41" r="5" fill="#34d399"/><text x="107" y="46" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="11" font-weight="700" fill="#9FBEED">GREYHY://QUALITY-LAB</text><text x="40" y="100" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="600" fill="#9FBEED">$ whoami</text><text x="40" y="145" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="34" font-weight="700" fill="#F0F4FA">Hank Huang</text><text x="40" y="181" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="16" font-weight="500" fill="#C1CDDD">Quality · Test Infra · AI / Agent</text><text x="40" y="220" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="14" font-weight="500" fill="#C1CDDD">→ building reliable systems</text>  <g transform="translate(-467 259) scale(.7)">
+    <circle cx="981" cy="180" r="116" fill="none" stroke="#9FBEED" stroke-opacity=".22" stroke-width="2" stroke-dasharray="8 9" />
+    <circle cx="981" cy="180" r="79" fill="none" stroke="#9ED4D2" stroke-opacity=".34" stroke-width="2" />
+    <circle cx="981" cy="180" r="50" fill="url(#accent)" filter="url(#shadow)" />
+    <text x="981" y="190" class="core">AI</text>
+
+    <circle cx="981" cy="64" r="12" fill="#9FBEED" />
+    <circle cx="1090" cy="218" r="12" fill="#9ED4D2" />
+    <circle cx="887" cy="248" r="12" fill="#9FBEED" />
+
+    <path d="M981 76v54M1078 214l-51-18M897 240l46-32" stroke="#9FBEED" stroke-opacity=".45" stroke-width="2" />
+
+    <rect x="931" y="24" width="100" height="28" rx="14" fill="#172437" />
+    <text x="981" y="43" text-anchor="middle" class="orbit-label">QUALITY</text>
+
+    <rect x="1062" y="238" width="102" height="28" rx="14" fill="#172437" />
+    <text x="1113" y="257" text-anchor="middle" class="orbit-label">AGENTS</text>
+
+    <rect x="818" y="263" width="112" height="28" rx="14" fill="#172437" />
+    <text x="874" y="282" text-anchor="middle" class="orbit-label">TEST INFRA</text>
+  </g>
+</svg>

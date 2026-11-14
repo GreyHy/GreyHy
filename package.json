@@ -1,0 +1,11 @@
+{
+  "name": "greyhy-profile-assets",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-profile.mjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
+}
